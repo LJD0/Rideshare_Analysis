@@ -69,20 +69,7 @@ Mean Rides by City Type (Boxplot): Urban areas exhibit a wider range and higher 
 
 Rides by Mean Fare: Rural areas have higher average fares, possibly due to longer travel distances and less competition. Urban areas have lower average fares, indicating a more competitive market.
 
-<p float="left"> <img src="https://raw.githubusercontent.com/LJD0/Rideshare_Analysis/main/analysis/divers_by_city_type.png" width="30%" />
-
-
-
-![drivers_by_city_type](https://raw.githubusercontent.com/LJD0/Rideshare_Analysis/main/analysis/drivers_by_city_type.png)
-
-
-
-![rides_by_city_type](https://raw.githubusercontent.com/LJD0/Rideshare_Analysis/main/analysis/rides_by_city_type.png)
-
-
-
-![fares_by_city_type](https://raw.githubusercontent.com/LJD0/Rideshare_Analysis/main/analysis/fares_by_city_type.png)
-
+![percentages()
 
 1. Percentage of Drivers by City Type (Pie Chart): Urban areas have the highest percentage of drivers, followed by Suburban areas, while Rural areas have the smallest percentage.
    
