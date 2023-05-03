@@ -69,13 +69,33 @@ Mean Rides by City Type (Boxplot): Urban areas exhibit a wider range and higher 
 
 Rides by Mean Fare: Rural areas have higher average fares, possibly due to longer travel distances and less competition. Urban areas have lower average fares, indicating a more competitive market.
 
-![percentages()
+
+![percentages](https://raw.githubusercontent.com/LJD0/Rideshare_Analysis/main/analysis/city_type_percentages.png)
 
 1. Percentage of Drivers by City Type (Pie Chart): Urban areas have the highest percentage of drivers, followed by Suburban areas, while Rural areas have the smallest percentage.
-   
 2. Percentage of Rides by City Type (Pie Chart): Urban areas contribute the largest share of rides, followed by Suburban areas, with Rural areas having the smallest proportion.
 3. Percentage of Fares by City Type (Pie Chart): Urban areas generate the highest percentage of fares, followed by Suburban areas, while Rural areas contribute the least.
-4. Weekly Fares by Date (Line Chart): Urban areas consistently generate the highest weekly fares, followed by Suburban areas. Rural areas have the lowest earnings, with fluctuations influenced by holidays, events, and weather conditions.
+
+
+
+
+![mean_city_boxplot](https://raw.githubusercontent.com/LJD0/Rideshare_Analysis/main/analysis/ride_count_boxplot.png)
+
+
+
+
+
+
+![rides_by_mean_fares](https://raw.githubusercontent.com/LJD0/Rideshare_Analysis/main/analysis/ride_by_avg_fare.png)
+
+
+
+
+
+
+![date_line_chart](https://raw.githubusercontent.com/LJD0/Rideshare_Analysis/main/analysis/city_type_fares_by_date.png)
+
+1. Weekly Fares by Date (Line Chart): Urban areas consistently generate the highest weekly fares, followed by Suburban areas. Rural areas have the lowest earnings, with fluctuations influenced by holidays, events, and weather conditions.
 
 Conclusion:
 
