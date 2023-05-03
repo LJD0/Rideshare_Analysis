@@ -17,89 +17,35 @@ Data:
 resources/city_data.csv
 resources/ride_data.csv
 
-### Results
-
-    This outlook focused on three main datasets, Total Rides, Total Drivers, and Total fares. all then broken down by city type to complete our analysis.
-
-    Total Rides by city types
-        Rural        125
-        Suburban     625
-        Urban       1625
-    Total Drivers by City Type
-        Rural         78
-        Suburban     490
-        Urban       2405
-    Total Fares by City Type
-        Rural        4327.93
-        Suburban    19356.33
-        Urban       39854.38
-
-    Using this data we found the average fares per ride and driver
-
-    Average fare per driver
-        Rural       55.49
-        Suburban    39.50
-        Urban       16.57
-
-    Average fare per ride
-        Rural       34.62
-        Suburban    30.97
-        Urban       24.53
-
-
 ## Summary
 
-
-Rides by City Type:
-
-* Urban areas have the highest number of rides, indicating strong demand in densely populated regions.
-* Suburban areas show a moderate number of rides, striking a balance between urban and rural characteristics.
-* Rural areas have the fewest rides, reflecting lower demand in sparsely populated regions.
-
-Total Rides, Drivers, and Fares:
-
-* Urban areas have the highest number of total rides and drivers, indicating a thriving rideshare market.
-* Suburban areas make a significant contribution to the overall market, while Rural areas have the fewest rides and drivers.
-
-Insights from Charts:
-
-
-Mean Rides by City Type (Boxplot): Urban areas exhibit a wider range and higher variability, reflecting fluctuating demand due to population density and transportation infrastructure.
-
-
-Rides by Mean Fare: Rural areas have higher average fares, possibly due to longer travel distances and less competition. Urban areas have lower average fares, indicating a more competitive market.
-
+![rideshare_df()
 
 ![percentages](https://raw.githubusercontent.com/LJD0/Rideshare_Analysis/main/analysis/city_type_percentages.png)
 
-1. Percentage of Drivers by City Type (Pie Chart): Urban areas have the highest percentage of drivers, followed by Suburban areas, while Rural areas have the smallest percentage.
-2. Percentage of Rides by City Type (Pie Chart): Urban areas contribute the largest share of rides, followed by Suburban areas, with Rural areas having the smallest proportion.
-3. Percentage of Fares by City Type (Pie Chart): Urban areas generate the highest percentage of fares, followed by Suburban areas, while Rural areas contribute the least.
+Rural areas, naturally, have the lowest metrics of the study. Consumers in these areas would most likely have their own form of transportation as rural areas are most commonly off the beaten path or have are some distance from economic centers. Less need for ridesharing would mean less need for rideshare drivers and the data supports that. An interesting fact worth noting is Rural areas have a higher percentage of the total fares. We will look into this more later.
 
+Suburban areas find a balance between the rural and urban areas in terms of metrics. While not out of the way, suburban areas may be some distance from desirable destinations, requiring onsumers in these demographics to likely have their own form of transportation. The shorter travel would also allow for cheaper fares that may encourage consumers to utilize ridesharing over their personal transportation.
 
-
-
-![mean_city_boxplot](https://raw.githubusercontent.com/LJD0/Rideshare_Analysis/main/analysis/ride_count_boxplot.png)
-
-
-
-
+Urban areas have the highest number of rides, drivers and total fares indicating strong demand in densely populated regions, as would be exepcted. A detail worth noting is that the Urban areas moke up nearly 81% of the overall drivers but only 63% of fares. This inequality suggests that the average fare in Urban areas may be lower than in suburban or rural areas.
 
 
 ![rides_by_mean_fares](https://raw.githubusercontent.com/LJD0/Rideshare_Analysis/main/analysis/ride_by_avg_fare.png)
 
+Looking at the breakdown of driver counts per city, as demand for rides increases, we can see the total number of drivers increase as well. This is consistent across all city types.
+
+Average ride fare distributed as would be expected. The rural areas that require longer travel have higher fares, while the urban areas that have shorter travel distances require more drivers to keep up with the demand. This data confirms our conclusion from the percentage charts. 
 
 
+![mean_city_boxplot](https://raw.githubusercontent.com/LJD0/Rideshare_Analysis/main/analysis/ride_count_boxplot.png)
 
+Urban cities have the widest range of ride counts. The data suggests that on average an Urban rideshare driver would be conducting nearly three times that of a rural driver; but could also have a less busy day, based on ride count, than a rural driver.
 
 
 ![date_line_chart](https://raw.githubusercontent.com/LJD0/Rideshare_Analysis/main/analysis/city_type_fares_by_date.png)
 
-1. Weekly Fares by Date (Line Chart): Urban areas consistently generate the highest weekly fares, followed by Suburban areas. Rural areas have the lowest earnings, with fluctuations influenced by holidays, events, and weather conditions.
+Looking at the weekly fares over time the data stays mostly consistent. The most fluctuation is found in the month of March, and looking at the Urban areas we see the most activity. Event parking can be both cumbersome and expensive, encouraging consumers to use alternate means of transportation like ridesharing. Events like March Madness could be the factor influencing the fluctuation at that time. We also see a large spike in rural and suburban rides at that time as well, suggesting that the event(s) is large enough to draw customers from all demographics. 
 
-Conclusion:
+### Conclusion
 
-* Urban areas have the highest demand, and rideshare companies should focus resources and marketing efforts accordingly.
-* Suburban areas contribute significantly to the market and require tailored services.
-* Rural areas have lower demand, and companies should assess feasibility and profitability.
-* Peaks and dips in fare earnings highlight the importance of adjusting strategies to capitalize on peak periods and mitigate downturns.
+The primary takeaway from the analysis is that ridesharing demand significantly differs across city types, with rural areas displaying lower demand, suburban areas showcasing moderate demand, and urban areas presenting the highest demand. This understanding enables rideshare companies to effectively tailor their services, optimize operations, and allocate resources to meet the distinct transportation needs of customers in each city type.
