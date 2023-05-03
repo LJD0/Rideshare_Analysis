@@ -1,30 +1,25 @@
-# PyBer_Analysis
-Module 5 OSU Bootcamp
+# Rideshare Analysis
 
-        Using Python, pandas, and matplotlib to analyze rideshare data
+### Overview
 
-## Project Overview
-
-        This overview showcases the total fares per week by city type from our Pyber Rideshare company across the span of four months.
-        Outlining the fluctuations and outlooks for each city type based on the first quarter.
+Ride share data analysis for Q1 2019.
 
 ### Resources Used
 
-    Software:
-        VS Code 1.72.2
-        Python 3.9.12
-    
-    Data:
-        **/resources/city_data.csv
-        **/resources/ride_data.csv
-        
-    Output:    
-        /analysis/Pyber_fare_summary.png
+Software:
+-VS Code 1.72.2
+-Python 3.10
+-Pandas
+-MatPlotLib
 
-## Results
+Data:
+resources/city_data.csv
+resources/ride_data.csv
+
+### Results
 
     This outlook focused on three main datasets, Total Rides, Total Drivers, and Total fares. all then broken down by city type to complete our analysis.
-    
+
     Total Rides by city types
         Rural        125
         Suburban     625
@@ -52,10 +47,7 @@ Module 5 OSU Bootcamp
 
     The whole of this data was used to create a dataframe that was then formatted and plotted by fares by City Type across a timespan of four months, as shown in the Pyber_fare_summary PNG file
 
-
 ## Summary
 
     Total fares are made up heavily of urban fares. this would mean the majority of Pyber riders live in cities. A potential way to increase engagement in the less popular areas, suburban and rural, would be to give ride credit to or from more densely populated areas, while slightly increasing the fare the other way. Making the appeal seem better in the less popular areas to make travel plans with pyber.
     Another possible way to increase fares in rural areas would be by increasing drivers or driver pay in those areas. One potential reson rural areas cuould lack fares is lack of availability. Lastly It seems that while generally the trend of total fares is correlated, there area a few weeks in our summary that our city types values rise and fall independently. Within those weekly time frames offer flash deals and early purchase discounts that allow drivers and customers to benefit all while increasing the total fares for those offset times.
-
-    
