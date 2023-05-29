@@ -20,6 +20,7 @@ resources/ride_data.csv
 ## Summary
 
 ![rideshare_df](https://raw.githubusercontent.com/LJD0/Rideshare_Analysis/main/analysis/rideshare_df.png)
+<img alt="rideshare_df" style="width: 100px;" src="https://raw.githubusercontent.com/LJD0/Rideshare_Analysis/main/analysis/rideshare_df.png">
 
 ![percentages](https://raw.githubusercontent.com/LJD0/Rideshare_Analysis/main/analysis/city_type_percentages.png)
 
