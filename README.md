@@ -25,7 +25,7 @@ resources/ride_data.csv
 
 ![percentages](https://raw.githubusercontent.com/LJD0/Rideshare_Analysis/main/analysis/city_type_percentages.png)
 
-<img src='https://raw.githubusercontent.com/LJD0/Rideshare_Analysis/main/analysis/city_type_percentages.png' style='height: 200px; width: 600px;'>
+<img src='https://raw.githubusercontent.com/LJD0/Rideshare_Analysis/main/analysis/city_type_percentages.png' style='width: 80vh;'>
 
 Rural areas, naturally, have the lowest metrics of the study. Consumers in these areas would most likely have their own form of transportation as rural areas are most commonly off the beaten path or have are some distance from economic centers. Less need for ridesharing would mean less need for rideshare drivers and the data supports that. An interesting fact worth noting is Rural areas have a higher percentage of the total fares. We will look into this more later.
 
